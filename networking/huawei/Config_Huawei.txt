@@ -18,4 +18,4 @@ quit
 display vlan 210            # Verificación, buscar tagged Ethernet 0/0/1 - 2                           
 save                                            
 
-(AQUÍ INSERTARÉ FOTO DE "display interfaces brief" , "display vlan 210")
+(AQUÍ INSERTARÉ FOTO DE "display interfaces brief" , "display vlan 210", el dia de mañana 04/02/2026)
