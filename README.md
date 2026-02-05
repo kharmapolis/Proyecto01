@@ -1,5 +1,13 @@
 # Proyecto n° 01 - en desarrollo
 ## Fecha de incio : 10/01/2026
+## Estado del Proyecto
+
+🟡 Actual: VLAN 210 y red de administración operativa  
+🟢 En progreso: Implementación de gateway con pfSense  
+⚪ Planificado: VLAN 220 (Servidores), VLAN 230 (DMZ), reglas de seguridad
+
+Este repositorio documenta tanto la implementación actual como el diseño objetivo del laboratorio.
+
 Este repositorio documenta el avance de mi proyecto de laboratorio número 01, realizado con equipos que me fueron facilitados amablemente en mi práctica profesional, con el fin de aprender y formarme en el ámbito práctico de mi carrera profesional, para mejorar en campos como AdmSYS y Network Management con una orientación hacia SecOps. Al igual que este proyecto, tengo otros varios laboratorios que estaré completando y compartiendo dentro de las próximas semanas/meses.
 
 ### Índice:
