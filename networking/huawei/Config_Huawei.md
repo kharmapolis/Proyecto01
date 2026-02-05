@@ -5,7 +5,7 @@ Ethernet 0/0/2 - administración , desktop Ubuntu - VLAN 210
 # PROGRESO ACTUAL DE COMANDOS EN SWITCH HUAWEI S2720 : 
 Secuencia : 
 
-`system-view`
+- `system-view`
 `vlan 210`
 `quit`
 
