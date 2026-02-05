@@ -11,7 +11,7 @@ graph TD
     classDef bridge fill:#eceff1,stroke:#455a64,stroke-dasharray: 5 5;
 
     %% Nodos Principales
-    WAN((🌐 WAN / INTERNET)):::wan
+    WAN(( WAN / INTERNET)):::wan
     
     PVE[Proxmox Host]:::switch
     R1[pfSense VM<br/>Firewall / L3 Gateway]:::router
