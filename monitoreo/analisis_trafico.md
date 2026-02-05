@@ -3,21 +3,21 @@
 
 ## 1. NIVEL FÍSICO Y TRUNK 
 
- Este comando es para ver el tráfico crudo con etiquetas 802.1Q en la interfaz física
- Útil para confirmar que el Trunk del Huawei está enviando tags
+ Este comando es para ver el tráfico crudo con etiquetas 802.1Q en la interfaz física.
+ Nos sirve para confirmar que el Trunk del Huawei está enviando tags sin problemas :
 
 - tcpdump -i enp1s0 -nn vlan
 - (Espacio reservado para evidencia - futura ruta al directorio de /evidencia)
   
-  Comando Para filtrar específicamente la VLAN de Administración (210) en el enlace troncal y Así comprobar si hay problemas de coneccion en L2
+  Este comando es Para filtrar específicamente la VLAN de Administración (210) en el enlace troncal y Así comprobar si hay problemas de coneccion en este contexto :
  
 - tcpdump -i vmbr0 -nn vlan 210
 - (Espacio reservado para evidencia - futura ruta al directorio de /evidencia)
+
  ## 2. NIVEL DE SERVICIO (Validación de Red de Gestión)
 
-
- Monitoreo general de la red de administración (VLAN 210 ya desempaquetada de su "Trama Ethernet")
- Aquí validamos el tráfico que llega al Desktop Ubuntu, el cual es usado para administrar.
+ Monitoreo puntual de la red de administración (VLAN 210 ya desempaquetada de su "Trama Ethernet")
+ Ahora Estamos monitoreando el tráfico que llega desde mi Desktop Ubuntu 24.04, el cual es usado para administrar los dispositivos y hacer pruebas a los host de la red.
 
 - tcpdump -i vmbr210 -nn
 - (Espacio reservado para evidencia - futura ruta al directorio de /evidencia)
