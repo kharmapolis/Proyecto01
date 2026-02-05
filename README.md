@@ -10,9 +10,9 @@ tengo otros varios laboratorios que estaré subiendo dentro de las proximas sema
 Indice, configuraciónes a la fecha : 
  
 ### Índice de configuraciones a la fecha:
-* [Configuración de Netplan (Ubuntu Desktop)](./virtualization/ubuntu/netplan_config.md) 
-* [Configuración de VLANs (Switch Huawei)](./networking/huawei/config_huawei.txt)
-* [Interfaces y Bridges (Proxmox)](./virtualización/proxmox/interfaces.md)
+* [Configuración de Netplan (Ubuntu Desktop)](./Virtualización/Ubuntu/Netplan_Config.md) 
+* [Configuración de VLANs (Switch Huawei)](./networking/huawei/Config_Huawei.txt)
+* [Interfaces y Bridges (Proxmox)](./Virtualización/Proxmox/Proxmox_Interfaces.md)
 * [Toolkit de Monitoreo (Tcpdump)](./monitoreo/analisis_trafico.md)
 
 
