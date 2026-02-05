@@ -16,13 +16,6 @@ Este repositorio documenta el avance de mi proyecto de laboratorio número 01, r
 * [Toolkit de Monitoreo (Tcpdump)](./monitoreo/analisis_trafico.md)  < - - - nota : las capturas serán subidas el día de mañana (05-02-2026).
 
 
-# Hardware:
-- Switch : [Huawei S2720-28TP-PWR-EI](https://e.huawei.com/es/products/switches/campus-switches/s2720-ei)
-- Router : [Cisco 887VA-M Series](https://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/data_sheet_c78-613481.html)
-- Servidor : [Proxmox 9.1 (Debian 13)](https://www.proxmox.com/en/about/company-details/press-releases/proxmox-virtual-environment-9-1)- i3 7th - 8GB RAM DDR4
-- Cable Serial Macho DB9 - USB
-- Adaptador Seríal Hembra DB9 - USB
-- Administración : [Ubuntu Desktop 24.04](https://documentation.ubuntu.com/landscape/reference/release-notes/24-04-lts-release-notes/)- intel core i5 11th - 12GB RAM DDR4 
 
 # Descripción del proyecto:
 
