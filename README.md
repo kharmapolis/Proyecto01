@@ -1,4 +1,4 @@
- Laboratorio01
+# Laboratorio01
 - Este laboratorio esta en desarroyo, siendo mi primer proyecto documentado me disculpo de antemano por las falencias que este pueda tener, estoy en constante desarroyo y aprendizaje en todos los contextos que engloba este documento.
  
 
