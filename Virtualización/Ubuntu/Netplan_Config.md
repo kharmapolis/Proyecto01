@@ -1,5 +1,5 @@
 
-#Contenido del archivo :
+# Contenido del archivo netplan en Ubuntu Desktop - Administración : \
 network:  \
   version: 2  \
   renderer: networkd  # Ignorar NetworkManager  \
