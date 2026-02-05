@@ -7,14 +7,17 @@ Secuencia :
 
 - `system-view`
 - `vlan 210`
+- `description Vlan_admin_ssh`
 - `quit`
 
 - `interface Ethernet` 0/0/1   ← Puerto Proxmox (Modo Trunk)
+- `description Trunk_Proxmox`
 - `port link-type trunk`
 - `port trunk allow-pass vlan 210`
 - `quit`
 
 - `interface Ethernet` 0/0/2   ← Puerto Administración Ubuntu (Modo Access)
+- `description Access_Pc_Admin`
 - `port link-type access`
 - `port default vlan 210`
 - `quit`
