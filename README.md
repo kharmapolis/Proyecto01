@@ -1,4 +1,4 @@
-# Laboratorio n° 01
+# Proyecto n° 01
 Este laboratorio está en desarrollo, siendo mi primer proyecto documentado me disculpo de antemano por las falencias que este pueda tener, estoy en constante desarrollo y aprendizaje en todos los contextos que engloba este documento.
 
 ### Índice:
