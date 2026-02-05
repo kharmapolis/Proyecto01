@@ -7,6 +7,11 @@
 Este repositorio documenta el avance de mi proyecto de laboratorio numero 01, realizado con equipos que fueron prestados amablemente en mi practica profesional, con el fin de aprender y formarme en el ambito practico de mi carrera profesional, para mejorar en campos como SecOps o Infraestructura Segura. Al igual que este proyecto,
 tengo otros varios laboratorios que estaré subiendo dentro de las proximas semanas/meses. 
 
+Indice, configuraciónes a la fecha : 
+[Virtualización/Ubuntu/Netplan_Config.md] - File de configuración de Netplan - #UbuntuDesktop #Vlan210Administración 
+
+
+
 #Hardware
 - Switch : Huawei S2720-28TP-PWR-EI
 - Router : Cisco - 887M
