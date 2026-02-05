@@ -2,7 +2,7 @@
 Este laboratorio esta en desarroyo, siendo mi primer proyecto documentado me disculpo de antemano por las falencias que este pueda tener, estoy en constante desarroyo y aprendizaje en todos los contextos que engloba este documento.
 
 # Notas sobre la metodología de Aprendizaje: 
-Este proyecto se enfoca en el uso de herramientas elementales y configuraciones manuales, en este laboratorio es deliberado. El objetivo es reducir la abstracción para comprender los conceptos fundamentales de networking y seguridad de forma tangible. Al interactuar directamente con la base técnica, se garantiza un aprendizaje real y profundo, permitiendo que la transición hacia herramientas automatizadas sea más sólida y consciente.
+Este proyecto se enfoca en el uso de herramientas elementales y configuraciones manuales, El objetivo es reducir la abstracción de manera deliberada para demostrar y comprender los conceptos fundamentales de networking y seguridad de forma tangible. Al interactuar directamente con la base técnica, puedo garantzar un aprendizaje real y profundo, permitiendo que la transición hacia herramientas automatizadas sea más sólida y consciente.
 
 # Estado del Proyecto: En Desarrollo:
 
