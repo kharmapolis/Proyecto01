@@ -1,8 +1,10 @@
 # Laboratorio01
 Este laboratorio esta en desarroyo, siendo mi primer proyecto documentado me disculpo de antemano por las falencias que este pueda tener, estoy en constante desarroyo y aprendizaje en todos los contextos que engloba este documento.
- 
 
-# Estado del Proyecto: En Desarrollo
+# Notas sobre la metodología de Aprendizaje: 
+Este proyecto se enfoca en el uso de herramientas elementales y configuraciones manuales, en este laboratorio es deliberado. El objetivo es reducir la abstracción para comprender los conceptos fundamentales de networking y seguridad de forma tangible. Al interactuar directamente con la base técnica, se garantiza un aprendizaje real y profundo, permitiendo que la transición hacia herramientas automatizadas sea más sólida y consciente.
+
+# Estado del Proyecto: En Desarrollo:
 
 Este repositorio documenta el avance de mi proyecto de laboratorio numero 01, realizado con equipos que me fueron facilitados amablemente en mi practica profesional, con el fin de aprender y formarme en el ambito practico de mi carrera profesional, para mejorar en campos como AdmSYS y Network Managment con una orientación hacia SecOps.
 Al igual que este proyecto, tengo otros varios laboratorios que estaré completando y compartiendo dentro de las proximas semanas/meses. 
@@ -15,7 +17,7 @@ Al igual que este proyecto, tengo otros varios laboratorios que estaré completa
 * [Toolkit de Monitoreo (Tcpdump)](./monitoreo/analisis_trafico.md)  < - - - nota : las capturas serán subidas el día de mañana (05-02-2026).
 
 
-# Hardware
+# Hardware:
 - Switch : Huawei S2720-28TP-PWR-EI
 - Router : Cisco - 887M
 - Servidor : Proxmox 9.1 (Debian 13) - i3 7th - 8GB RAM DDR4
@@ -23,7 +25,7 @@ Al igual que este proyecto, tengo otros varios laboratorios que estaré completa
 - Adaptador Seríal Hembra DB9 - USB
 - Administración : Ubuntu Desktop 24.04 - intel core i5 11th - 12GB RAM DDR4
 
-# Descripción del proyecto
+# Descripción del proyecto:
 
 El objetivo es implementar una infraestructura de red endurecida y segura, que sirva como base para un clouster automatizado con distintos servicios Linux con un enfoque en hardening. El proyecto busca garantizar la tríada de la seguridad (Confidencialidad, Integridad y Disponibilidad) mediante:
 
@@ -37,14 +39,10 @@ El objetivo es implementar una infraestructura de red endurecida y segura, que s
   - Gestión de Vulnerabilidades, despliegue de un entorno de virtualización en Proxmox dedicado al escaneo de activos, auditoría de servicios y endurecimiento de sistemas operativos como Ubuntu 24.04. 
 
 
-
-# Problemas Resueltos y Troubleshutting
+# Problemas Resueltos y Troubleshutting:
 - Red : Migración de NetworkManager a systemd-networkd para asegurar IP estática en Ubuntu sin interferencias.
 - Enrutamiento : Resolución de tráfico ICMP fallido en Proxmox mediante ajuste de tabla de rutas en bridge vmbr210.
 
-# Próximos Pasos
-- Configuración de reglas de firewall en Proxmox y Ubuntu.
-- Implementación de servicios adicionales en el entorno virtual.
-- Documentación final de la topología de red.
+
 
 
