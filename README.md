@@ -18,7 +18,7 @@ Este repositorio documenta el avance de mi proyecto de laboratorio número 01, r
 
 # Hardware:
 - Switch : Huawei S2720-28TP-PWR-EI
-- Router : Cisco - 887M
+- Router : [Cisco 880 VA Series](https://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/data_sheet_c78-613481.html)
 - Servidor : Proxmox 9.1 (Debian 13) - i3 7th - 8GB RAM DDR4
 - Cable Serial Macho DB9 - USB
 - Adaptador Seríal Hembra DB9 - USB
