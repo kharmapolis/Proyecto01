@@ -17,7 +17,7 @@ network:  \
  ### Notas
  
   En el archivo de Netplan (Ubuntu) :
-- La flag "renderer: networkd " indica cual motor de backend, utilizará el sistema operativo para aplicar y gestionar la configuración de red, en este caso es utilizado para mitigar un conflicto entre el motor Netword y Netwokr_Manager, en este caso se prefiere Networkd ya que permite una configuración mas tecnica, estable y especializada
+- La flag ` renderer: networkd ` indica cual motor de backend, utilizará el sistema operativo para aplicar y gestionar la configuración de red, en este caso es utilizado para mitigar un conflicto entre el motor `Netword y Netwokr_Manager `, en este caso se prefiere  ` Networkd ` ya que permite una configuración mas tecnica, estable y especializada
 
 - No se define el Gateway ni DNS, ya que el servidor aun no necesita salir a internet ni resolver nombres de dominio (Cuando se agregue L3 con el router cisco 800 Series, esta file será actualizada).
 
