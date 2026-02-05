@@ -4,7 +4,7 @@ Este laboratorio esta en desarroyo, siendo mi primer proyecto documentado me dis
 
 # Estado del Proyecto: En Desarrollo
 
-Este repositorio documenta el avance de mi proyecto de laboratorio numero 01, realizado con equipos que me fueron facilitados amablemente en mi practica profesional, con el fin de aprender y formarme en el ambito practico de mi carrera profesional, para mejorar en campos como SecOps o Infraestructura Segura. Al igual que este proyecto,
+Este repositorio documenta el avance de mi proyecto de laboratorio numero 01, realizado con equipos que me fueron facilitados amablemente en mi practica profesional, con el fin de aprender y formarme en el ambito practico de mi carrera profesional, para mejorar en campos como SecOps, AdmSYS, Network Managment. Al igual que este proyecto,
 tengo otros varios laboratorios que estaré subiendo dentro de las proximas semanas/meses. 
 
  
