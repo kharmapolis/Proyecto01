@@ -10,6 +10,8 @@ network:  \
 
  ![NETPLAN](https://github.com/user-attachments/assets/44cec981-006b-432f-ba57-e4eaac96e70d)
 
+ - Se usa el comando ` sudo chmod 600 xxx.yaml` para dar permisos de lectura y escritura solo al usuario ` root `
+
 
 
  ### Notas
