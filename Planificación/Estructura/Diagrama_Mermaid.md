@@ -3,63 +3,61 @@
 
 ```mermaid
 graph TD
-    %% graph TD
-    %% Definición de Nodos de Red
-    WAN((WAN / INTERNET))
+    %% Definición de Estilos (Colores más claros y profesionales)
+    classDef wan fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#01579b;
+    classDef router fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#e65100,font-weight:bold;
+    classDef switch fill:#e8eaf6,stroke:#1a237e,stroke-width:2px,color:#1a237e,font-weight:bold;
+    classDef vlan210 fill:#f1f8e9,stroke:#33691e,stroke-width:1px;
+    classDef vlan220 fill:#fffde7,stroke:#f57f17,stroke-width:1px;
+    classDef vlan230 fill:#fce4ec,stroke:#880e4f,stroke-width:1px;
+    classDef bridge fill:#eceff1,stroke:#455a64,stroke-dasharray: 5 5;
+
+    %% Nodos Principales
+    WAN((🌐 WAN / INTERNET)):::wan
     
-    R1[Cisco 887M<br/>L3 Gateway - RoaS]
-    S1[Huawei S2720<br/>L2 Core Switch]
+    R1[Cisco 887M<br/>L3 Gateway - RoaS]:::router
+    S1[Huawei S2720<br/>L2 Core Switch]:::switch
     
-    %% VLANs como subgrafos para orden visual
-    subgraph VLAN_210 [VLAN 210: Administración]
+    %% Conexiones de Backbone
+    WAN --- R1
+    R1 -- "Trunk Link (802.1Q)<br/>Tagged: 210, 220, 230" --- S1
+
+    %% VLAN 210 - Administración
+    subgraph V210 [VLAN 210: Administración]
         direction TB
-        V210_GW[GW: 10.200.210.1]
+        V210_GW[fa:fa-shield GW: 10.200.210.1]
         Ubuntu[Ubuntu Desktop<br/>Port: Access]
     end
+    S1 === V210:::vlan210
 
-    subgraph VLAN_220 [VLAN 220: Servicios/DMZ]
+    %% VLAN 220 - Servicios/DMZ
+    subgraph V220 [VLAN 220: Servicios/DMZ]
         direction TB
-        V220_GW[GW: 10.200.220.1]
-        Proxmox[Proxmox Host<br/>Linux Bridges]
-        vmbr220((vmbr220))
+        V220_GW[fa:fa-server GW: 10.200.220.1]
+        Proxmox[Proxmox Host]
+        vmbr220((vmbr220 Bridge)):::bridge
         VM01[VM 01]
         VM02[VM 02]
+        
+        Proxmox --- vmbr220
+        vmbr220 --- VM01
+        vmbr220 --- VM02
     end
+    S1 === V220:::vlan220
 
-    subgraph VLAN_230 [VLAN 230: Escaneo/SecOps]
+    %% VLAN 230 - Escaneo/SecOps
+    subgraph V230 [VLAN 230: Escaneo/SecOps]
         direction TB
-        V230_GW[GW: 10.200.230.1]
+        V230_GW[fa:fa-bug GW: 10.200.230.1]
         Tcpdump[Tcpdump]
         Wireshark[Wireshark]
         OpenVAS[OpenVAS]
     end
+    S1 === V230:::vlan230
 
-    %% Conexiones principales
-    WAN --- R1
-    R1 -- "Trunk Link (802.1Q)<br/>Sub-interfaces .210, .220, .230" --- S1
-
-    %% Distribución de VLANs
-    S1 --- V210_GW
-    S1 --- V220_GW
-    S1 --- V230_GW
-
-    %% Conexiones internas
+    %% Vinculación de Gateways
     V210_GW --- Ubuntu
-    
     V220_GW --- Proxmox
-    Proxmox --- vmbr220
-    vmbr220 --- VM01
-    vmbr220 --- VM02
-
     V230_GW --- Tcpdump
     V230_GW --- Wireshark
     V230_GW --- OpenVAS
-
-    %% Estilos
-    classDef router fill:#f96,stroke:#333,stroke-width:2px;
-    classDef switch fill:#69f,stroke:#333,stroke-width:2px;
-    classDef server fill:#dfd,stroke:#333,stroke-width:1px;
-    
-    class R1 router;
-    class S1 switch;
-    class Proxmox,Ubuntu,VM01,VM02 server;
