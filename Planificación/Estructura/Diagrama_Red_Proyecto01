@@ -1,1 +1,28 @@
 
+
+
+[ WAN / INTERNET ]
+               |
+      +--------+---------+
+      |   Cisco 887M     |  (L3 Gateway - Router-on-a-Stick)
+      +--------+---------+  Sub-interfaces: .210, .220, .230
+               |
+               | [ Trunk Link | IEEE 802.1Q ]
+               |
+      +--------+---------+
+      |  Huawei S2720    |  (L2 Core Switch)
+      +--------+---------+  VLAN Database: 210, 220, 230
+               |
+    +----------+-----------------------+-----------------------+
+    |                                  |                       |
+[ VLAN 210 ]                       [ VLAN 220 ]            [ VLAN 230 ]
+(Administración)                   (Servicios/DMZ)         (Escaneo/SecOps)
+GW: 10.200.210.1                   GW: 10.200.220.1        GW: 10.200.230.1
+    |                                  |                       |
+    |-- Ubuntu Desktop                 |-- [ Proxmox Host ]    |-- [ Tcpdump ]
+    |   (Port: Access)                 |   (Linux Bridges)     |-- [ Wireshark ]
+                                       |        |              |-- [ OpenVAS ]
+                                       |   [ vmbr220 ]         
+                                       |        |              
+                                       |   +-- [ VM 01 ]
+                                       |   +-- [ VM 02 ]
