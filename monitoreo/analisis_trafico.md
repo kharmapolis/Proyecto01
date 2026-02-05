@@ -9,7 +9,7 @@
 ` tcpdump -i enp1s0 -nn vlan `
 - (Espacio reservado para evidencia - futura ruta al directorio de /evidencia)
   
-  Este comando es Para filtrar específicamente la VLAN de Administración (210) en el enlace troncal y Así comprobar si hay problemas de coneccion en este contexto :
+  Este comando es Para filtrar específicamente el trafico de la VLAN de Administración (210) en el enlace troncal y Así comprobar si hay problemas de coneccion en este contexto :
  
 ` tcpdump -i vmbr0 -nn vlan 210 `
 - (Espacio reservado para evidencia - futura ruta al directorio de /evidencia)
