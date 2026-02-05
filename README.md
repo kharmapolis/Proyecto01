@@ -9,7 +9,9 @@ Este repositorio documenta el avance de mi proyecto de laboratorio número 01, r
  [Configuración de Netplan (Ubuntu Desktop Administración)](./Virtualización/Ubuntu/Netplan_Config.md) \
  [Configuración de VLANs (Switch Huawei)](./networking/huawei/Config_Huawei.txt) \
  [Interfaces y Bridges (Proxmox)](./Virtualización/Proxmox/Proxmox_Interfaces.md) \
- [Toolkit de Monitoreo (Tcpdump)](./monitoreo/analisis_trafico.md)  < - - - nota : las capturas serán subidas el día de mañana (05-02-2026).
+ [Toolkit de Monitoreo (Tcpdump)](./monitoreo/analisis_trafico.md) \
+
+  ---------- las capturas serán subidas el día de mañana (05-02-2026) ----------
 
 # Notas sobre la metodología de Aprendizaje: 
 Este proyecto se enfoca en el uso de herramientas elementales y configuraciones manuales. El objetivo es reducir la abstracción de manera deliberada para demostrar y comprender los conceptos fundamentales de networking y seguridad de forma tangible. Al interactuar directamente con la base técnica, puedo garantizar un aprendizaje real y profundo, permitiendo que la transición hacia herramientas automatizadas sea más sólida y consciente
