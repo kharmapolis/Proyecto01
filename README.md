@@ -37,7 +37,4 @@ El objetivo es implementar una infraestructura de red endurecida y segura, que s
 - Implementación de servicios adicionales en el entorno virtual.
 - Documentación final de la topología de red.
 
-#Directorios
-- /networking: Configuración de switches y routers.
-- /virtualization: Configuración de Proxmox y Netplan.
-- /docs: Bitácora técnica y Troubleshooting
+
