@@ -1,5 +1,5 @@
 # Interfaces :
-Ethernet 0/0/1 Servidor Proxmox - VLAN 210
+Ethernet 0/0/1 Servidor Proxmox - VLAN 210 \
 Ethernet 0/0/2 - administración , desktop Ubuntu - VLAN 210
 
 # PROGRESO ACTUAL DE COMANDOS EN SWITCH HUAWEI S2720 : 
