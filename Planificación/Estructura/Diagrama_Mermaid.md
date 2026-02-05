@@ -15,7 +15,7 @@ graph TD
     %% Nodos Principales
     WAN((🌐 WAN / INTERNET)):::wan
     
-    R1[Cisco 887M<br/>L3 Gateway - RoaS]:::router
+    R1[Cisco 887VA-M<br/>L3 Gateway - RoaS]:::router
     S1[Huawei S2720<br/>L2 Core Switch]:::switch
     
     %% Conexiones de Backbone
