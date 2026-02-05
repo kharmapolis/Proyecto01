@@ -12,14 +12,16 @@ Indice, configuraciónes a la fecha :
 ### Índice de configuraciones a la fecha:
 * [Configuración de Netplan (Ubuntu Desktop)](./virtualization/ubuntu/netplan_config.md) 
 * [Configuración de VLANs (Switch Huawei)](./networking/huawei/config_huawei.txt)
-* [Interfaces y Bridges (Proxmox)](./virtualization/proxmox/interfaces.md)
-* [Toolkit de Monitoreo (Tcpdump)](./monitoring/analisis_trafico.md)
+* [Interfaces y Bridges (Proxmox)](./virtualización/proxmox/interfaces.md)
+* [Toolkit de Monitoreo (Tcpdump)](./monitoreo/analisis_trafico.md)
 
 
 #Hardware
 - Switch : Huawei S2720-28TP-PWR-EI
 - Router : Cisco - 887M
 - Servidor : Proxmox 9.1 (Debian 13) - i3 7th - 8GB RAM DDR4
+- Cable Serial Macho DB9 - USB
+- Adaptador Seríal Hembra DB9 - USB
 - Administración : Ubuntu Desktop 24.04 - intel core i5 11th - 12GB RAM DDR4
 
 #Descripción del proyecto
