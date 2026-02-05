@@ -1,7 +1,7 @@
-# Kit de Herramientas de Monitoreo: Scripts de Análisis de Red
+# Herramientas de Monitoreo, Scripts de Análisis de Red
+- Aqui propongo herramientas para el analisis de trafico en tiempo real, lo que me ayuda a detectar intruciónes, problemas de seguridad y problemas rutinarios de conectividad sobretodo en L2
 
 ## 1. NIVEL FÍSICO Y TRUNK 
-
 
  Ver tráfico crudo con etiquetas 802.1Q en la interfaz física
  Útil para confirmar que el Trunk del Huawei está enviando tags
@@ -9,8 +9,9 @@
 ### tcpdump -i enp1s0 -nn vlan
 
  Filtrar específicamente la VLAN de Administración (210) en la troncal
- Si aquí no sale nada, el problema está en el Switch físico
-tcpdump -i vmbr0 -nn vlan 210
+ Asi puedo comprobar si hay problemas de coneccion en el Sw Huawei
+ 
+### tcpdump -i vmbr0 -nn vlan 210
 
  ## 2. NIVEL DE SERVICIO (Validación de Red de Gestión)
 
