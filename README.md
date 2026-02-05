@@ -12,7 +12,7 @@ tengo otros varios laboratorios que estaré subiendo dentro de las proximas sema
 * [Configuración de Netplan (Ubuntu Desktop)](./Virtualización/Ubuntu/Netplan_Config.md) 
 * [Configuración de VLANs (Switch Huawei)](./networking/huawei/Config_Huawei.txt)
 * [Interfaces y Bridges (Proxmox)](./Virtualización/Proxmox/Proxmox_Interfaces.md)
-* [Toolkit de Monitoreo (Tcpdump)](./monitoreo/analisis_trafico.md)
+* [Toolkit de Monitoreo (Tcpdump)](./monitoreo/analisis_trafico.md) # nota : las capturas serán subidas el día de mañana.
 
 
 # Hardware
