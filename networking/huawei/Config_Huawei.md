@@ -19,4 +19,4 @@ Secuencia :
 - display vlan 210                  < - - - Verificación, tagged Ethernet 0/0/1 - 2                           
 - save                                            
 
-#### (aqui insertaré foto de los comandos de huawei os **display interfaces brief** y **display vlan 210** , el dia de mañana 04/02/2026)
+#### (aqui insertaré foto de los comandos de huawei os ***display interfaces brief*** y ***display vlan 210*** , el dia de mañana 04/02/2026)
