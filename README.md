@@ -8,7 +8,7 @@ Este repositorio documenta el avance de mi proyecto de laboratorio numero 01, re
 tengo otros varios laboratorios que estaré subiendo dentro de las proximas semanas/meses. 
 
 Indice, configuraciónes a la fecha : 
-[Virtualización/Ubuntu/Netplan_Config.md] - File de configuración de Netplan - #UbuntuDesktop #Vlan210Administración 
+(Virtualización/Ubuntu/Netplan_Config.md) - File de configuración de Netplan - #UbuntuDesktop #Vlan210Administración 
 
 
 
