@@ -8,8 +8,12 @@ Este repositorio documenta el avance de mi proyecto de laboratorio numero 01, re
 tengo otros varios laboratorios que estaré subiendo dentro de las proximas semanas/meses. 
 
 Indice, configuraciónes a la fecha : 
-(Virtualización/Ubuntu/Netplan_Config.md) - File de configuración de Netplan - #UbuntuDesktop #Vlan210Administración 
-
+ 
+### Índice de configuraciones a la fecha:
+* [Configuración de Netplan (Ubuntu Desktop)](./virtualization/ubuntu/netplan_config.md) 
+* [Configuración de VLANs (Switch Huawei)](./networking/huawei/config_huawei.txt)
+* [Interfaces y Bridges (Proxmox)](./virtualization/proxmox/interfaces.md)
+* [Toolkit de Monitoreo (Tcpdump)](./monitoring/analisis_trafico.md)
 
 
 #Hardware
