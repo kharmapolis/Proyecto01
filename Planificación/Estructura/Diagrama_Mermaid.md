@@ -1,5 +1,6 @@
 
 graph TD
+
     %% Definición de Estilos (Colores más claros y profesionales)
     classDef wan fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#01579b;
     classDef router fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#e65100,font-weight:bold;
