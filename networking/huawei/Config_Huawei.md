@@ -8,15 +8,15 @@ Secuencia :
 - system-view                                     
 - vlan 210                                        
 - quit                                             
-- interface Ethernet 0/0/1    # Puerto Proxmox - Modo Trunk                     
+- interface Ethernet 0/0/1          < - - - Puerto Proxmox - Modo Trunk                     
 - port link-type trunk                            
 - port trunk allow-pass vlan 210                  
 - quit                                             
-- interface Ethernet 0/0/2    # Puerto Administración Ubuntu - Modo Access                    
+- interface Ethernet 0/0/2          < - - -  Puerto Administración Ubuntu - Modo Access                    
 - port link-type access                            
 - port default vlan 210                           
 - quit                                             
-- display vlan 210            # Verificación, buscar tagged Ethernet 0/0/1 - 2                           
+- display vlan 210                  < - - - Verificación, tagged Ethernet 0/0/1 - 2                           
 - save                                            
 
 #### (AQUÍ INSERTARÉ FOTO DE "display interfaces brief" , "display vlan 210", el dia de mañana 04/02/2026)
