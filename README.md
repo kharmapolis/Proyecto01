@@ -2,7 +2,7 @@
 Este repositorio documenta el avance de mi proyecto de laboratorio número 01, realizado con equipos que me fueron facilitados amablemente en mi práctica profesional, con el fin de aprender y formarme en el ámbito práctico de mi carrera profesional, para mejorar en campos como AdmSYS y Network Management con una orientación hacia SecOps. Al igual que este proyecto, tengo otros varios laboratorios que estaré completando y compartiendo dentro de las próximas semanas/meses.
 
 ### Índice:
-- Estructura: \
+- Estructura: 
  [Hardware y SO](./Planificación/Hardware.md) \
  [Diagrama de red](./Planificación/Estructura/Diagrama_Red_Proyecto01) \
 - Archivos de Configuración y monitoreo de red: \
@@ -11,7 +11,7 @@ Este repositorio documenta el avance de mi proyecto de laboratorio número 01, r
  [Interfaces y Bridges (Proxmox)](./Virtualización/Proxmox/Proxmox_Interfaces.md) \
  [Toolkit de Monitoreo (Tcpdump)](./monitoreo/analisis_trafico.md) 
 
-  #### las capturas serán subidas el día de mañana (05-02-2026) 
+  #### las capturas que faltan, serán subidas a lo largo de la semana
 
 # Notas sobre la metodología de Aprendizaje: 
 Este proyecto se enfoca en el uso de herramientas elementales y configuraciones manuales. El objetivo es reducir la abstracción de manera deliberada para demostrar y comprender los conceptos fundamentales de networking y seguridad de forma tangible. Al interactuar directamente con la base técnica, puedo garantizar un aprendizaje real y profundo, permitiendo que la transición hacia herramientas automatizadas sea más sólida y consciente
