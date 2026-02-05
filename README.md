@@ -1,4 +1,5 @@
-# Proyecto n° 01
+# Proyecto n° 01 - en desarrollo
+Este repositorio documenta el avance de mi proyecto de laboratorio número 01, realizado con equipos que me fueron facilitados amablemente en mi práctica profesional, con el fin de aprender y formarme en el ámbito práctico de mi carrera profesional, para mejorar en campos como AdmSYS y Network Management con una orientación hacia SecOps. Al igual que este proyecto, tengo otros varios laboratorios que estaré completando y compartiendo dentro de las próximas semanas/meses.
 
 ### Índice:
 * [Hardware y SO](./Planificación/Hardware.md) 
@@ -10,10 +11,6 @@
 
 # Notas sobre la metodología de Aprendizaje: 
 Este proyecto se enfoca en el uso de herramientas elementales y configuraciones manuales. El objetivo es reducir la abstracción de manera deliberada para demostrar y comprender los conceptos fundamentales de networking y seguridad de forma tangible. Al interactuar directamente con la base técnica, puedo garantizar un aprendizaje real y profundo, permitiendo que la transición hacia herramientas automatizadas sea más sólida y consciente
-
-# Estado del Proyecto: En Desarrollo:
-Este repositorio documenta el avance de mi proyecto de laboratorio número 01, realizado con equipos que me fueron facilitados amablemente en mi práctica profesional, con el fin de aprender y formarme en el ámbito práctico de mi carrera profesional, para mejorar en campos como AdmSYS y Network Management con una orientación hacia SecOps. Al igual que este proyecto, tengo otros varios laboratorios que estaré completando y compartiendo dentro de las próximas semanas/meses.
-
 
 
 # Descripción del proyecto:
