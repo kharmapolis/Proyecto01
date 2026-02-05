@@ -18,9 +18,11 @@ tcpdump -i vmbr0 -nn vlan 210
  Monitoreo general de la red de administración (VLAN 210 ya desempaquetada)
  Aquí validamos el tráfico que llega a tu escritorio Ubuntu
 
-tcpdump -i vmbr210 -nn
+### tcpdump -i vmbr210 -nn
+
  Filtrar solo ICMP para pruebas de conectividad y latencia
-tcpdump -i vmbr210 icmp
+ 
+### tcpdump -i vmbr210 icmp
 
 
 ## 3. SEGURIDAD Y HARDENING (Detección de Anomalías)
@@ -28,7 +30,7 @@ tcpdump -i vmbr210 icmp
 
 Detectar intentos de escaneo de puertos (Flags SYN) hacia el servidor Ubuntu
 Un flujo alto de estos paquetes podría indicar un escaneo de Nmap externo
-tcpdump -i vmbr210 dst 10.200.10.50 and 'tcp[tcpflags] & (tcp-syn) != 0'
+### tcpdump -i vmbr210 dst 10.200.10.50 '
 
 Limpiar el ruido visual: Ver todo EXCEPTO el tráfico SSH (Puerto 22)
 Ideal para no ver tu propia conexión mientras monitoreas el resto
@@ -38,4 +40,4 @@ tcpdump -i vmbr210 -nn not port 22
 
  Exportar captura completa a formato .pcap para análisis profundo en Wireshark
  Este archivo es el que luego subiremos como evidencia al portafolio
-tcpdump -i vmbr210 -w auditoria_red_admin.pcap
+### tcpdump -i vmbr210 -w auditoria_red_admin.pcap
