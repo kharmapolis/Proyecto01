@@ -4,8 +4,8 @@ Este repositorio documenta el avance de mi proyecto de laboratorio número 01, r
 
 ### Índice:
 #### Estructura: 
- - [Hardware y SO](./Planificación/Estructura/Diagrama_Mermaid.md) 
- - [Diagrama de red](./Planificación/Estructura/Diagrama_Red_Proyecto01) 
+ - [Hardware y SO](./Planificación/Hardware.md) 
+ - [Diagrama de red](./Planificación/Estructura/Diagrama_Mermaid.md) 
 #### Archivos de Configuración y monitoreo de red: 
  - [Configuración de Netplan (Ubuntu Desktop Administración)](./Virtualización/Ubuntu/Netplan_Config.md) 
  - [Configuración de VLANs (Switch Huawei)](./networking/huawei/Config_Huawei.md) 
