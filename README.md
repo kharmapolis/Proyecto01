@@ -28,13 +28,13 @@ tengo otros varios laboratorios que estaré subiendo dentro de las proximas sema
 El objetivo es implementar una infraestructura de red endurecida y segura, que sirva como base para un clouster automatizado con distintos servicios Linux con un enfoque en hardening. El proyecto busca garantizar la tríada de la seguridad (Confidencialidad, Integridad y Disponibilidad) mediante:
 
 
-  -Segmentación, se busca el aislamiento de servicios de importancia, mediante VLANs (210, 220, 230) para así limitar el movimiento lateral.
+  - Segmentación, se busca el aislamiento de servicios de importancia, mediante VLANs (210, 220, 230) para así limitar el movimiento lateral.
 
 
-  -Visibilidad y Monitoreo, se busca implementar servicios de monitoreo para el análisis de tráfico en tiempo real, utilizando herramientas de diagnóstico como Tcpdump y Wireshark para la detección de anomalías en el flujo de datos.
+  - Visibilidad y Monitoreo, se busca implementar servicios de monitoreo para el análisis de tráfico en tiempo real, utilizando herramientas de diagnóstico como Tcpdump y Wireshark para la detección de anomalías en el flujo de datos.
 
 
-  -Gestión de Vulnerabilidades, despliegue de un entorno de virtualización en Proxmox dedicado al escaneo de activos, auditoría de servicios y endurecimiento de sistemas operativos como Ubuntu 24.04. 
+  - Gestión de Vulnerabilidades, despliegue de un entorno de virtualización en Proxmox dedicado al escaneo de activos, auditoría de servicios y endurecimiento de sistemas operativos como Ubuntu 24.04. 
 
 
 
