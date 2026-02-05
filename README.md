@@ -15,7 +15,7 @@ tengo otros varios laboratorios que estaré subiendo dentro de las proximas sema
 * [Toolkit de Monitoreo (Tcpdump)](./monitoreo/analisis_trafico.md)
 
 
-#Hardware
+# Hardware
 - Switch : Huawei S2720-28TP-PWR-EI
 - Router : Cisco - 887M
 - Servidor : Proxmox 9.1 (Debian 13) - i3 7th - 8GB RAM DDR4
@@ -23,7 +23,7 @@ tengo otros varios laboratorios que estaré subiendo dentro de las proximas sema
 - Adaptador Seríal Hembra DB9 - USB
 - Administración : Ubuntu Desktop 24.04 - intel core i5 11th - 12GB RAM DDR4
 
-#Descripción del proyecto
+# Descripción del proyecto
 
 El objetivo es implementar una infraestructura de red endurecida y segura, que sirva como base para un clouster automatizado con distintos servicios Linux con un enfoque en hardening. El proyecto busca garantizar la tríada de la seguridad (Confidencialidad, Integridad y Disponibilidad) mediante:
 
@@ -38,11 +38,11 @@ El objetivo es implementar una infraestructura de red endurecida y segura, que s
 
 
 
-#Problemas Resueltos y Troubleshutting
+# Problemas Resueltos y Troubleshutting
 - Red : Migración de NetworkManager a systemd-networkd para asegurar IP estática en Ubuntu sin interferencias.
 - Enrutamiento : Resolución de tráfico ICMP fallido en Proxmox mediante ajuste de tabla de rutas en bridge vmbr210.
 
-#Próximos Pasos
+# Próximos Pasos
 - Configuración de reglas de firewall en Proxmox y Ubuntu.
 - Implementación de servicios adicionales en el entorno virtual.
 - Documentación final de la topología de red.
