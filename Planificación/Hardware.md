@@ -1,4 +1,4 @@
-# Hardware
+# Hardware - Data Sheet (Enlaces)
 
 - Switch: [Huawei S2720-28TP-PWR-EI](https://e.huawei.com/es/products/switches/campus-switches/s2720-ei)
 - Router: [Cisco 887VA-M](https://www.cisco.com/c/en/us/products/collateral/routers/800-series-routers/data_sheet_c78-613481.html)
