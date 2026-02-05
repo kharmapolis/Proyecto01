@@ -7,7 +7,6 @@
 Este repositorio documenta el avance de mi proyecto de laboratorio numero 01, realizado con equipos que fueron prestados amablemente en mi practica profesional, con el fin de aprender y formarme en el ambito practico de mi carrera profesional, para mejorar en campos como SecOps o Infraestructura Segura. Al igual que este proyecto,
 tengo otros varios laboratorios que estaré subiendo dentro de las proximas semanas/meses. 
 
-Indice, configuraciónes a la fecha : 
  
 ### Índice de configuraciones a la fecha:
 * [Configuración de Netplan (Ubuntu Desktop)](./Virtualización/Ubuntu/Netplan_Config.md) 
