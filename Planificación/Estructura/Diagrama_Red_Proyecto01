@@ -1,7 +1,7 @@
 
+# DIAGRAMA LOGICO DEL PROYECTO
 
-
-[ WAN / INTERNET ]
+      [ WAN / INTERNET ]
                |
       +--------+---------+
       |   Cisco 887M     |  (L3 Gateway - Router-on-a-Stick)
