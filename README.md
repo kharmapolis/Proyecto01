@@ -8,7 +8,7 @@ Este repositorio documenta el avance de mi proyecto de laboratorio número 01, r
  - [Diagrama de red](./Planificación/Estructura/Diagrama_Red_Proyecto01) 
 #### Archivos de Configuración y monitoreo de red: 
  - [Configuración de Netplan (Ubuntu Desktop Administración)](./Virtualización/Ubuntu/Netplan_Config.md) 
- - [Configuración de VLANs (Switch Huawei)](./networking/huawei/Config_Huawei.txt) 
+ - [Configuración de VLANs (Switch Huawei)](./networking/huawei/Config_Huawei.md) 
  - [Interfaces y Bridges (Proxmox)](./Virtualización/Proxmox/Proxmox_Interfaces.md) 
  - [Toolkit de Monitoreo (Tcpdump)](./monitoreo/analisis_trafico.md)
 #### Mejoras en camino: 
