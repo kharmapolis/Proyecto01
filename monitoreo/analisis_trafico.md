@@ -26,14 +26,13 @@ tcpdump -i vmbr210 icmp
 3. SEGURIDAD Y HARDENING (Detección de Anomalías)
 
 
- Detectar intentos de escaneo de puertos (Flags SYN) hacia el servidor Ubuntu
- Un flujo alto de estos paquetes podría indicar un escaneo de Nmap externo
+Detectar intentos de escaneo de puertos (Flags SYN) hacia el servidor Ubuntu
+Un flujo alto de estos paquetes podría indicar un escaneo de Nmap externo
 tcpdump -i vmbr210 dst 10.200.10.50 and 'tcp[tcpflags] & (tcp-syn) != 0'
 
-# Limpiar el ruido visual: Ver todo EXCEPTO el tráfico SSH (Puerto 22)
-# Ideal para no ver tu propia conexión mientras monitoreas el resto
+Limpiar el ruido visual: Ver todo EXCEPTO el tráfico SSH (Puerto 22)
+Ideal para no ver tu propia conexión mientras monitoreas el resto
 tcpdump -i vmbr210 -nn not port 22
-
 
  4. AUDITORÍA Y CAPTURA (Forense)
 
