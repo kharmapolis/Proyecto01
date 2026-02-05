@@ -12,7 +12,7 @@
     classDef bridge fill:#eceff1,stroke:#455a64,stroke-dasharray: 5 5;
 
     %% Nodos Principales
-    WAN((🌐 WAN / INTERNET)):::wan
+    WAN(( WAN / INTERNET)):::wan
     
     R1[pfSense VM<br/>Firewall / L3 Gateway]:::router
     S1[Huawei S2720<br/>L2 Core Switch]:::switch
