@@ -8,6 +8,7 @@
 
 - tcpdump -i enp1s0 -nn vlan
 - (Espacio reservado para evidencia - futura ruta al directorio de /evidencia)
+- 
  Filtrar específicamente la VLAN de Administración (210) en la troncal
  Asi puedo comprobar si hay problemas de coneccion en el Sw Huawei
  
