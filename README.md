@@ -1,19 +1,19 @@
 # Laboratorio01
-Este laboratorio está en desarrollo, siendo mi primer proyecto documentado me disculpo de antemano por las falencias que este pueda tener, estoy en constante desarrollo y aprendizaje en todos los contextos que engloba este documento
+Este laboratorio está en desarrollo, siendo mi primer proyecto documentado me disculpo de antemano por las falencias que este pueda tener, estoy en constante desarrollo y aprendizaje en todos los contextos que engloba este documento.
+
+### Índice:
+* [Hardware](./Planificación/Hardware.md) 
+* [Diagrama de red](./Planificación/Estructura/Diagrama_Red_Proyecto01) 
+* [Configuración de Netplan (Ubuntu Desktop Administración)](./Virtualización/Ubuntu/Netplan_Config.md) 
+* [Configuración de VLANs (Switch Huawei)](./networking/huawei/Config_Huawei.txt)
+* [Interfaces y Bridges (Proxmox)](./Virtualización/Proxmox/Proxmox_Interfaces.md)
+* [Toolkit de Monitoreo (Tcpdump)](./monitoreo/analisis_trafico.md)  < - - - nota : las capturas serán subidas el día de mañana (05-02-2026).
 
 # Notas sobre la metodología de Aprendizaje: 
 Este proyecto se enfoca en el uso de herramientas elementales y configuraciones manuales. El objetivo es reducir la abstracción de manera deliberada para demostrar y comprender los conceptos fundamentales de networking y seguridad de forma tangible. Al interactuar directamente con la base técnica, puedo garantizar un aprendizaje real y profundo, permitiendo que la transición hacia herramientas automatizadas sea más sólida y consciente
 
 # Estado del Proyecto: En Desarrollo:
 Este repositorio documenta el avance de mi proyecto de laboratorio número 01, realizado con equipos que me fueron facilitados amablemente en mi práctica profesional, con el fin de aprender y formarme en el ámbito práctico de mi carrera profesional, para mejorar en campos como AdmSYS y Network Management con una orientación hacia SecOps. Al igual que este proyecto, tengo otros varios laboratorios que estaré completando y compartiendo dentro de las próximas semanas/meses.
-
- 
-### Índice:
-- Diagrama de red
-* [Configuración de Netplan (Ubuntu Desktop Administración)](./Virtualización/Ubuntu/Netplan_Config.md) 
-* [Configuración de VLANs (Switch Huawei)](./networking/huawei/Config_Huawei.txt)
-* [Interfaces y Bridges (Proxmox)](./Virtualización/Proxmox/Proxmox_Interfaces.md)
-* [Toolkit de Monitoreo (Tcpdump)](./monitoreo/analisis_trafico.md)  < - - - nota : las capturas serán subidas el día de mañana (05-02-2026).
 
 
 
