@@ -12,8 +12,9 @@ network:  \
 
 
 
+ ### Notas
  
-En el archivo de Netplan (Ubuntu)
+  En el archivo de Netplan (Ubuntu) :
 
   #No se define el Gateway ni DNS, ya que el servidor aun no necesita salir a internet ni resolver nombres de dominio.
 
