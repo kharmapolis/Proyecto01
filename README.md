@@ -9,7 +9,7 @@ Este repositorio documenta el avance de mi proyecto de laboratorio número 01, r
  [Configuración de Netplan (Ubuntu Desktop Administración)](./Virtualización/Ubuntu/Netplan_Config.md) \
  [Configuración de VLANs (Switch Huawei)](./networking/huawei/Config_Huawei.txt) \
  [Interfaces y Bridges (Proxmox)](./Virtualización/Proxmox/Proxmox_Interfaces.md) \
- [Toolkit de Monitoreo (Tcpdump)](./monitoreo/analisis_trafico.md) \
+ [Toolkit de Monitoreo (Tcpdump)](./monitoreo/analisis_trafico.md) 
 
   #### las capturas serán subidas el día de mañana (05-02-2026) 
 
